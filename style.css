@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1548815056-de4dab9bfd9d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGhlcm8lMjBwYWdlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "STIX Two Text", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+h1 {
+  font-size: 60px;
+  color: white;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+div {
+  position: absolute;
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+}
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: silver;
+  border: none;
+  text-align: center;
+}
